@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const Moralis = require("Moralis").default;
+const Moralis = require("moralis").default;
 
 require("dotenv").config({ path: ".env" });
 
