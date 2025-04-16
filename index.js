@@ -15,14 +15,18 @@ app.get("/fetchnfts", async (req, res) => {
   try {
     const { query } = req;
 
+    console.log(`Got a query: ${query}`);
+
     const response = await Moralis.EvmApi.nft.getWalletNFTs({
       address: query.address,
       chain: query.chain,
     });
 
+    console.log(`Response: ${response}`);
+
     return res.status(200).json(response);
   } catch (e) {
-    console.error( `Server error: ${e}`);
+    console.error(`Server error: ${e}`);
     return res.status(400).json();
   }
 });
