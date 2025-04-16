@@ -5,7 +5,7 @@ const Moralis = require("moralis").default;
 require("dotenv").config({ path: ".env" });
 
 const app = express();
-const port = 5001;
+const port = 3000;
 const API_KEY = process.env.API_KEY;
 
 app.use(cors());
