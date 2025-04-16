@@ -22,7 +22,7 @@ app.get("/fetchnfts", async (req, res) => {
 
     return res.status(200).json(response);
   } catch (e) {
-    console.error("Server error: `${e}`");
+    console.error( `Server error: ${e}`);
     return res.status(400).json();
   }
 });
