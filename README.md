@@ -6,3 +6,7 @@ curl "https://nft-server-ojnx.onrender.com/fetchnfts?address={YOUR_WALLET_ADDRES
 ```
 Note that the server only fetches NFTs minted on the [ArtyNFT contract](https://sepolia.etherscan.io/address/0x04fb34223fb055c92eedcf5a3988822ce0518f8f)
 on the Sepolia network.
+
+## Running the code locally
+
+If you wish to run this code locally, you'll need Node.js and npm installed. Clone the repository, run `npm install --save-dev` in the project root, then run `node index.js` to start the server and have it listen on port 5001.
