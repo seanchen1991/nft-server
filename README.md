@@ -1,6 +1,6 @@
 ## Arty NFT Gallery Server
 
-This application is a tiny Express webserver that serves instances up instances of the ArtyNFT via the `fetchnft` endpoint. It is hosted at [https://render.com](https://render.com) and can be queried from the terminal by running
+This application is a tiny Express webserver that serves instances up instances of the ArtyNFT via the `fetchnft` endpoint. It is hosted on the Render platform at [https://nft-server-ojnx.onrender.com](https://nft-server-ojnx.onrender.com) and can be queried from the terminal by running
 ```
 curl "https://nft-server-ojnx.onrender.com/fetchnfts?address={YOUR_WALLET_ADDRESS}&chain={CHAIN_ID}
 ```
